@@ -1,6 +1,6 @@
 services:
   animunet:
     image: xdillfrescott/animunet:latest
-    restart: unless-stopped
+    restart: always
     ports:
       - "3000:3000"
